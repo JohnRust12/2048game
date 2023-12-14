@@ -7,9 +7,9 @@ const cellsInRow = rows.map((row) => [...row.querySelectorAll('.field-cell')]);
 const startCellVelues = [2, 2, 2, 2, 2, 2, 2, 2, 2, 4];
 
 const startButton = document.querySelector('.start');
-const startMessage = document.querySelector('.message__start');
-const loseMessage = document.querySelector('.message__lose');
-const winMessage = document.querySelector('.message__win');
+const startMessage = document.querySelector('.message-start');
+const loseMessage = document.querySelector('.message-lose');
+const winMessage = document.querySelector('.message-win');
 const gameScore = document.querySelector('.game-score');
 
 for (let i = 0; i < 4; i++) {
